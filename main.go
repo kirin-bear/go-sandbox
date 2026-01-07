@@ -3,8 +3,10 @@ package main
 import (
 	"fmt"
 	"strings"
-	"main.go/scope_export"
+
+	"main.go/fizzbuzz"
 	"main.go/hello_generation"
+	"main.go/scope_export"
 )
 
 func main() {
@@ -41,4 +43,9 @@ func main() {
 	fmt.Println("Работа с условными операторами")
 	hello_generation.SetAge(1994)
 	fmt.Println(hello_generation.GetHello())
+
+	fmt.Println("")
+	fmt.Println("==============")
+	fmt.Println("Работа с циклами")
+	fizzbuzz.Start()
 }
