@@ -3,8 +3,9 @@ package main
 import (
 	"fmt"
 
-	"main.go/input_strings_counter"
-	"main.go/pointers"
+	"main.go/arrays_and_slices"
+	//"main.go/input_strings_counter"
+	//"main.go/pointers"
 	//"strings"
 	//"main.go/fizzbuzz"
 	//"main.go/hello_generation"
@@ -50,13 +51,18 @@ func main() {
 	//fmt.Println("Работа с циклами")
 	//fizzbuzz.Start()
 
-	fmt.Println("")
-	fmt.Println("==============")
-	pointers.Start()
+	//fmt.Println("")
+	//fmt.Println("==============")
+	//pointers.Start()
+
+	//fmt.Println("")
+	//fmt.Println("==============")
+	//input_strings_counter.Start()
+
 
 	fmt.Println("")
 	fmt.Println("==============")
-	input_strings_counter.Start()
+	arrays_and_slices.Start();
 
 
 }
