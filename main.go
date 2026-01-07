@@ -8,7 +8,7 @@ import (
 func main() {
 	var helloWorld, helloGo string
 	var year, month, day int
-	var birthday = 30
+	var birthday = 30 // или можно проще -> birthday := 30 
 
 	helloWorld = "Hello, World"
 	helloGo = "Hello, Go"
@@ -21,7 +21,8 @@ func main() {
 	fmt.Println(strings.Split(helloGo, "")[0])
 	fmt.Println(string(helloGo[0]))
 
+
 	var i int
 	var i32 int32
-	fmt.Println(i == i32)
+	fmt.Println(i == int(i32)) // сравнивать только через приведение типов
 }

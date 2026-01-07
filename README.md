@@ -1,1 +1,1 @@
-# telegram-service
+# Репозиторий по изучению Go
