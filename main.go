@@ -3,16 +3,19 @@ package main
 import (
 	"fmt"
 	"strings"
+	"main.go/scope_export"
+	"main.go/hello_generation"
 )
 
 func main() {
 	var helloWorld, helloGo string
 	var year, month, day int
-	var birthday = 30 // или можно проще -> birthday := 30 
+	var birthday = 30 // или можно проще -> birthday := 30
 
 	helloWorld = "Hello, World"
 	helloGo = "Hello, Go"
 	year, month, day = 2026, 1, 5
+	
 	fmt.Println(helloWorld)
 	fmt.Println(helloGo)
 	fmt.Println("Current date:", year, "-", month, "-", day)
@@ -21,8 +24,21 @@ func main() {
 	fmt.Println(strings.Split(helloGo, "")[0])
 	fmt.Println(string(helloGo[0]))
 
-
 	var i int
 	var i32 int32
 	fmt.Println(i == int(i32)) // сравнивать только через приведение типов
+
+	// пример работы аля как с классом PHP
+	fmt.Println("")
+	fmt.Println("==============")
+	fmt.Println("Работа с эуспортом переменных")
+
+	scope_export.SetSupport("set support from main")
+	fmt.Println(scope_export.GetContact());
+
+	fmt.Println("")
+	fmt.Println("==============")
+	fmt.Println("Работа с условными операторами")
+	hello_generation.SetAge(1994)
+	fmt.Println(hello_generation.GetHello())
 }
