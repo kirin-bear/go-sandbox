@@ -4,7 +4,9 @@ import (
 	"fmt"
 
 	//"main.go/functions"
-	"main.go/functions/figures"
+	"main.go/defers"
+	"main.go/src/toppackage/middlepackage/bottompackage/mathxxx"
+	//"main.go/functions/figures"
 	//"main.go/structures"
 	//"main.go/arrays_and_slices"
 	//"main.go/mapas"
@@ -79,6 +81,12 @@ func main() {
 	fmt.Println("==============")
 	//functions.PrintAllFilesWithFilter("./", "iot")
 	//functions.Start()
-	figures.Start()
+	//figures.Start()
 
+	fmt.Println("")
+	fmt.Println("==============")
+	defers.Start()
+
+	
+	mathxxx.AddInts()
 }
