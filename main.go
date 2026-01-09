@@ -3,8 +3,9 @@ package main
 import (
 	"fmt"
 
+	"main.go/structures"
 	//"main.go/arrays_and_slices"
-	"main.go/mapas"
+	//"main.go/mapas"
 	//"main.go/input_strings_counter"
 	//"main.go/pointers"
 	//"strings"
@@ -17,7 +18,7 @@ func main() {
 	//var helloWorld, helloGo string
 	//var year, month, day int
 	//var birthday = 30 // или можно проще -> birthday := 30
-//
+	//
 	//helloWorld = "Hello, World"
 	//helloGo = "Hello, Go"
 	//year, month, day = 2026, 1, 5
@@ -60,15 +61,16 @@ func main() {
 	//fmt.Println("==============")
 	//input_strings_counter.Start()
 
-
 	//fmt.Println("")
 	//fmt.Println("==============")
 	//arrays_and_slices.Start();
 
+	//fmt.Println("")
+	//fmt.Println("==============")
+	//mapas.Start();
 
 	fmt.Println("")
 	fmt.Println("==============")
-	mapas.Start();
-
+	structures.Start()
 
 }
