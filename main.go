@@ -3,7 +3,8 @@ package main
 import (
 	"fmt"
 
-	"main.go/arrays_and_slices"
+	//"main.go/arrays_and_slices"
+	"main.go/mapas"
 	//"main.go/input_strings_counter"
 	//"main.go/pointers"
 	//"strings"
@@ -60,9 +61,14 @@ func main() {
 	//input_strings_counter.Start()
 
 
+	//fmt.Println("")
+	//fmt.Println("==============")
+	//arrays_and_slices.Start();
+
+
 	fmt.Println("")
 	fmt.Println("==============")
-	arrays_and_slices.Start();
+	mapas.Start();
 
 
 }
