@@ -3,7 +3,8 @@ package main
 import (
 	"fmt"
 
-	"main.go/functions"
+	//"main.go/functions"
+	"main.go/functions/figures"
 	//"main.go/structures"
 	//"main.go/arrays_and_slices"
 	//"main.go/mapas"
@@ -76,6 +77,8 @@ func main() {
 
 	fmt.Println("")
 	fmt.Println("==============")
-	functions.PrintAllFilesWithFilter("./", "iot")
+	//functions.PrintAllFilesWithFilter("./", "iot")
+	//functions.Start()
+	figures.Start()
 
 }
