@@ -5,7 +5,7 @@ import (
 
 	//"main.go/functions"
 	"main.go/defers"
-	"main.go/src/toppackage/middlepackage/bottompackage/mathxxx"
+	"fizzbuzz/f"
 	//"main.go/functions/figures"
 	//"main.go/structures"
 	//"main.go/arrays_and_slices"
@@ -86,7 +86,4 @@ func main() {
 	fmt.Println("")
 	fmt.Println("==============")
 	defers.Start()
-
-	
-	mathxxx.AddInts()
 }
