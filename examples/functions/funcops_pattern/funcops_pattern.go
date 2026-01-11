@@ -1,6 +1,6 @@
 package funcops_pattern
 
-import "main.go/functions/figures"
+import "main.go/examples/functions/figures"
 
 type Item struct {
 	NoOption   string

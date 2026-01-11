@@ -1,11 +1,8 @@
 package main
 
 import (
-	"fmt"
-
+	_ "fmt"
 	//"main.go/functions"
-	"main.go/defers"
-	"fizzbuzz/f"
 	//"main.go/functions/figures"
 	//"main.go/structures"
 	//"main.go/arrays_and_slices"
@@ -77,13 +74,13 @@ func main() {
 	//fmt.Println("==============")
 	//structures.Start()
 
-	fmt.Println("")
-	fmt.Println("==============")
+	//fmt.Println("")
+	//fmt.Println("==============")
 	//functions.PrintAllFilesWithFilter("./", "iot")
 	//functions.Start()
 	//figures.Start()
 
-	fmt.Println("")
-	fmt.Println("==============")
-	defers.Start()
+	//fmt.Println("")
+	//fmt.Println("==============")
+	//defers.Start()
 }
